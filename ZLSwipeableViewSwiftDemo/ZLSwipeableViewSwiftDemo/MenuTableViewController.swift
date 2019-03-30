@@ -47,7 +47,7 @@ class MenuTableViewController: UITableViewController {
         
         let title = titleForRowAtIndexPath(indexPath)
         let vc = viewControllerForRowAtIndexPath(indexPath)
-        vc.title = title
+        vc.title = title        
         navigationController?.pushViewController(vc, animated: true)
     }
     
