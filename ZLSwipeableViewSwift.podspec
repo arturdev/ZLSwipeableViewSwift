@@ -1,5 +1,5 @@
 Pod::Spec.new do |s|
-  s.swift_version     = '4.2'
+  s.swift_version     = '5.0'
   s.name         = "ZLSwipeableViewSwift"
   s.version      = "0.0.8"
   s.summary      = "A simple view for building card like interface like Tinder and Potluck."
